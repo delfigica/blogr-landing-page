@@ -23,7 +23,7 @@ export const DesignedFuture = () => {
             Flexible content management enables users to easily move through
             post. Increase the usability yo your blog by adding customized
             categories, sections, format, or flow. With this functionality,
-            you're in full control.
+            you&apos;re in full control.
           </p>
         </div>
       </div>
