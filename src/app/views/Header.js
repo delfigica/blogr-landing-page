@@ -14,7 +14,7 @@ export const Header = () => {
     <div className="header-box">
       <div className="header-left">
         <div className="logo-header">
-          <img src="/images/logo.svg" />
+          <img src="./images/logo.svg" />
         </div>
         <div className="links-menu-box">
           <div className="links-group-box">
@@ -22,7 +22,7 @@ export const Header = () => {
               <div className="link-header-box"  key={i}>
                 <p onClick={handleToggleModal}>{link}</p>
                 <div>
-                  <img src="/images/icon-arrow-light.svg" />
+                  <img src="./images/icon-arrow-light.svg" />
                 </div>
               </div>
             ))}
