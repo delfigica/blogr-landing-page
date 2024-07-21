@@ -1,0 +1,79 @@
+.header-rs-menu-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2em 2em;
+  font-family: "Ubuntu";
+  font-weight: 600;
+}
+.header-rs-logo {
+  width: 80px;
+}
+.header-rs-menu {
+  width: 35px;
+}
+.header-rs-links-box {
+  background-color: white;
+  width: 90vw;
+  height: 65vh;
+  border-radius: 10px;
+  box-shadow: 10px 7px 58px -18px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+  margin: auto;
+}
+.header-rs-link {
+  display: flex;
+  align-items: center;
+  color: hsl(208, 49%, 24%);
+  margin: 15px 0px;
+
+}
+.header-rs-link p {
+  margin-right: 15px;
+  font-size: 1.1em;
+
+}
+.links-connect-menu {
+    width: 100%;
+    height: 150px;
+    background-color: hsla(237, 18%, 21%, 0.137);
+    border-radius: 10px;
+    color: hsl(237, 17%, 21%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 500;
+}
+.header-rs-btns-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    margin: 20px 0px;
+}
+#btn-header-rs-sign {
+    background: linear-gradient(90deg, hsl(356, 100%, 66%) 47%, hsl(355, 100%, 74%) 100%);
+    color: white;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+.hr-header-menu {
+    width: 100%;
+    margin-top: 25px;
+}
+
+@media (min-width: 600px) {
+    .header-responsive {
+        display: none;
+    }
+}

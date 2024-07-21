@@ -1,0 +1,58 @@
+.art-box {
+  background-color: hsl(237, 17%, 21%);
+  color: white;
+  padding: 6em;
+  border-radius: 0px 80px 0px 80px;
+  font-family: "Overpass";
+  display: flex;
+  background-image: url(../../../public/images/bg-pattern-circles.svg);
+  background-repeat: no-repeat;
+  background-position-x: -15vw;
+  background-position-y: -60vh;
+}
+.art-image-box {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.art-image-box div {
+  position: absolute;
+}
+.art-box-text {
+  width: 50%;
+}
+.art-box-text h3 {
+  font-size: 2em;
+  font-weight: 600;
+}
+.art-box-text p {
+  font-weight: 300;
+  width: 80%;
+  margin: 20px 0px;
+  line-height: 1.5;
+}
+@media (max-width: 600px) {
+  .art-box-text {
+    width: 100%;
+    text-align: center;
+  }
+  .art-image-box {
+    align-items: flex-end;
+
+  }
+  .art-image-box div {
+    top: 1550px;
+  }
+  .art-box {
+    padding: 1em;
+    height: 70vh;
+    background-position-x: -10vw;
+    background-position-y: -30vh;
+    background-size: 600px;
+    flex-direction: column-reverse;
+  }
+  .art-box-text p {
+    width: 80%;
+    margin: 20px auto;
+  }
+}

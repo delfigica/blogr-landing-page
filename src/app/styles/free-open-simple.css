@@ -1,0 +1,50 @@
+.free-open-simple-box {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  background-image: url(../../../public/images/illustration-laptop-desktop.svg);
+  background-repeat: no-repeat;
+  background-position-x: -20vw;
+  background-position-y: center;
+}
+.free-opem-simple-text-box {
+  width: 50%;
+}
+
+.free-opem-simple-text-box div {
+  width: 70%;
+  color: hsl(208, 49%, 24%);
+  font-family: "Overpass";
+  margin: 80px 0;
+}
+
+.free-opem-simple-text-box div h3 {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.free-opem-simple-text-box div p {
+  line-height: 1.8;
+}
+@media (max-width: 600px) {
+  .free-open-simple-box {
+    background-image: url(../../../public/images/illustration-laptop-mobile.svg);
+    background-position-x: center;
+    background-position-y: top;
+    align-items: center;
+  }
+  .free-opem-simple-text-box {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 100vh;
+  }
+  .free-opem-simple-text-box div {
+    width: 90%;
+    margin: 0 auto;
+  }
+}

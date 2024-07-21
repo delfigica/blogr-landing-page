@@ -1,0 +1,105 @@
+.banner-image-box {
+  background-image: url(../../../public/images/bg-pattern-intro-desktop.svg);
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: center;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+  background-size: 180vw;
+}
+.banner-box {
+  height: 60vh;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 143, 112, 1) 27%,
+    rgba(255, 61, 84, 1) 100%
+  );
+  background-color: hsl(13, 100%, 72%);
+  border-radius: 0px 0px 0px 100px;
+}
+.banner-text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 60%;
+  color: #fff;
+  font-family: "Ubuntu";
+  font-weight: 400;
+}
+.banner-text-box h3 {
+  font-size: 4em;
+  font-weight: 400;
+}
+.banner-subtitle {
+  margin-top: -40px;
+  font-size: 1.2em;
+}
+.banner-text-box div {
+  display: flex;
+}
+.btn-with-color {
+  background-color: white;
+  width: 140px;
+  height: 42px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: hsl(356, 100%, 66%);
+  font-weight: 600;
+  margin: 0px 15px;
+  cursor: pointer;
+}
+.btn-with-color:hover {
+  background-color: hsla(0, 0%, 100%, 0.582);
+  cursor: pointer;
+  color: #fff;
+}
+.btn-without-color {
+  border: 1px solid #fff;
+  width: 140px;
+  height: 42px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 600;
+  margin: 0px 15px;
+  cursor: pointer;
+}
+.btn-without-color:hover {
+  background-color: white;
+  color: hsl(356, 100%, 66%);
+}
+@media (max-width: 600px) {
+  .banner-text-box h3 {
+    font-size: 2em;
+    text-align: center;
+  }
+  .banner-text-box {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+  .banner-subtitle {
+    font-weight: lighter;
+    margin-top: -10px;
+  }
+  .banner-image-box {
+    background-size: 280vw;
+    background-position-y: -290px;
+    background-position-x: -300px;
+    background-image: url(../../../public/images/bg-pattern-intro-mobile.svg);
+    border-radius: 0 0 0 100px;
+  }
+  .banner-box  {
+    background: linear-gradient(
+        180deg,
+        rgba(255, 143, 112, 1) 10%,
+        rgba(255, 61, 84, 1) 100%
+      );
+  }
+}

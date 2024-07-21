@@ -1,0 +1,93 @@
+.header-box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 2em 10em;
+  font-family: "Overpass";
+  color: white;
+  cursor: pointer;
+}
+.header-left {
+  display: flex;
+}
+.logo-header {
+  width: 80px;
+}
+.links-group-box {
+  display: flex;
+  align-items: center;
+  margin: 0px 50px;
+}
+.link-header-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 15px;
+}
+.link-header-box p {
+  margin-right: 5px;
+}
+.link-header-box p:hover {
+  text-decoration: underline;
+}
+
+.link-header-box div {
+  display: flex;
+  align-items: center;
+}
+.header-btns-box {
+  display: flex;
+  align-items: center;
+}
+#btn-header-sign {
+  background-color: white;
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: hsl(356, 100%, 66%);
+  font-weight: 600;
+  margin-left: 20px;
+}
+#btn-header-sign:hover {
+  background-color: hsla(0, 0%, 100%, 0.582);
+  cursor: pointer;
+  color: #fff;
+}
+.modal-connect-header-box {
+  background-color: white;
+  width: 160px;
+  height: 140px;
+  border-radius: 5px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 15px;
+  font-weight: 300;
+  position: absolute;
+  top: 4em;
+  padding: 2em;
+  font-weight: 300;
+  box-shadow: -4px 12px 50px 5px rgba(0,0,0,0.36);
+}
+.modal-connect-header-box p {
+  margin: 5px 0px;
+}
+.modal-connect-header-box p:hover {
+    font-weight: 600;
+}
+.links-menu-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+  .header-box {
+    display: none;
+  }
+}
